@@ -1,0 +1,191 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,100&family=Dancing+Script&display=swap');
+
+/*Formatação da fonte das letras*/
+
+body{
+    width:95%;
+	margin:0px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	padding:10px;
+    font-family: 'Dancing Script';
+    background-color: #abc0c0;
+    background-size: cover;
+}
+h1, h2, h3{
+    font-family:arial
+    color:#ca3030;
+}
+.botao{
+    position: absolute;
+    height:20px;
+    color:#ffffff;
+    text-decoration: none;
+    margin-top: 150px;
+    padding:10px 30px;
+    background-color: #191970;
+    font-size: .9em;
+    border-radius:4px;
+    box-shadow: 2px 0px 2px 0px rgba(94, 98, 179, 0.5);
+}
+.botao:hover{
+    height: 16px;
+    background-color: #010141;
+}
+.button{
+    height:20px;
+    color:#ffffff;
+    text-decoration: none;
+    margin-top: 150px;
+    padding: 10px 30px;
+    background-color: #191970;
+    font-size: .9em;
+    border-radius:4px;
+    box-shadow: 2px 0px 2px 0px rgba(20, 20, 20, .0.5);
+}
+.button:hover{
+    background-color:#010141;
+}
+
+/*Formatação do menu*/
+
+nav#menu{
+    height: 100px;
+    display:flex;
+    align-items: center;
+    background-color: #191970;
+}
+nav#menu a{
+    text-decoration: none;
+    color:#ffffff;
+    font-weight:800;
+    font-size:32px;
+    font-family: 'Barlow';
+}
+nav#menu a:hover{
+    text-decoration: underline;
+    color:#c7b8b8;
+}
+nav#menu ul{
+    display:inline-flex;
+    align-items: center;
+    list-style:none;
+    padding:0;
+    width:100%;
+}
+nav#menu ul li{
+    text-align: center;
+    width:100%;
+}
+nav#menu ul li a{
+    display: inline-block;
+    padding:10px 0;
+    width:100%;
+    text-decoration:none;
+    color:#ffffff;
+}
+
+/*Formatação do topo*/
+
+header{
+    display:flex;
+    height:600px;
+    height: 60vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../imagens/camera.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:#ffffff;
+    text-align:center;
+    padding:20px;
+}
+header h1{
+    color:#ffffff;
+}
+header p{
+    font-size: 15pt;
+    margin-bottom: 2em;
+}
+
+/*Formatação do corpo*/
+
+#home{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+}
+#home div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+#home p{
+    font-size: 13pt;
+    padding:10px;
+}
+#home h2{
+    padding:0;
+}
+
+#servicos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding:10px 10px 20px;
+    background-color: #191970;
+    color:#ffffff;
+}
+#servicos h1{
+    color:#ffffff;
+}
+#servicos p{
+    margin-bottom: 2em;
+    max-width: 1000x;
+}
+#servicos .botao{
+    background-color: #f1f1f1;
+    color:#1c1c1c;
+}
+
+#fotos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+#fotos h2{
+    margin-bottom: 20px;
+}
+#fotos img{
+    width:80%;
+    border-radius: 10px;
+    border-style: solid;
+    border-color:#1c1c1c;
+    box-shadow: 1px 0px 1px 0px rgba(88, 86, 86, 0.5);
+}
+
+footer{
+    height: 160px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #191970;
+    color:#ffffff;
+}
+footer a{
+    text-decoration: none;
+    color:#00ffff;
+}
+footer div{
+    display: inline-block;
+}
+footer p{
+    font-size: 15pt;
+}
